@@ -1,5 +1,5 @@
-# Beaglebone-Blue-Simulink-Jetson-Nano
-Using Beaglebone Blue with Simulink & Jetson nano ROS
+# Beaglebone-Blue-GetStart
+Getting Start with Beaglebone Blue
 # Getting Started with Beaglebone Blue
 Beaglebone Blue is a linux debian base OS device that allow user player around with robotic stuff.
 ## Update BBB debian
