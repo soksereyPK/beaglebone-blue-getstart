@@ -3,7 +3,8 @@ Getting Start with Beaglebone Blue
 # Getting Started with Beaglebone Blue
 Beaglebone Blue is a linux debian base OS device that allow user player around with robotic stuff.
 # Powering Up The Board
-![]()
+![](https://github.com/Phayuth/Beaglebone-Blue-GetStart/blob/master/BBBPower.png?raw=true)
+
 There are 3 ways to powering the board
 - 12v power jack
 - Micro USB port
