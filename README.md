@@ -29,5 +29,5 @@ There are 2 type of Image file:
 - When new storage appear on the PC, the BBB is ready to use
 #### Flash Image non eMMC flasher
 Follow the precedure from Flash Image eMMC flasher section
-- Connect to the BBB via browser Cloud9 IDE address : beagleboneblue:3000
+- Connect to the BBB via browser Cloud9 IDE address : 192.168. 7.2:3000
 - 
