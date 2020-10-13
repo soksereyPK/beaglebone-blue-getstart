@@ -30,4 +30,17 @@ There are 2 type of Image file:
 #### Flash Image non eMMC flasher
 Follow the precedure from Flash Image eMMC flasher section
 - Connect to the BBB via browser Cloud9 IDE address : 192.168. 7.2:3000
-- 
+- Navigate to 
+#### Connect BBB to WIFI
+On Terminal
+```
+$ connmanctl
+$ tether wifi off
+$ enable wifi
+$ scan wifi
+$ services
+$ agent on
+$ connect {wifi name ex:wifi_f45eab_.................}
+$ password
+$ exit
+```
