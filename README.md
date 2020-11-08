@@ -1,5 +1,6 @@
 # Beaglebone-Blue-GetStart
 Getting Start with Beaglebone Blue
+![](https://se.mathworks.com/hardware-support/beaglebone-blue/_jcr_content/imageParsys/image.adapt.full.high.jpg/1590140118098.jpg)
 # Getting Started with Beaglebone Blue
 Beaglebone Blue is a linux debian base OS device that allow user player around with robotic stuff.
 # Powering Up The Board
