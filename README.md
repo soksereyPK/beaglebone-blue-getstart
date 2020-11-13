@@ -7,7 +7,7 @@ Beaglebone Blue is a linux debian base OS device that allow user player around w
 ![](https://github.com/Phayuth/Beaglebone-Blue-GetStart/blob/master/BBBPower.png?raw=true)
 
 There are 3 ways to powering the board
-- 12v power jack
+- 12V power jack
 - Micro USB port
 - 2Cells Lipo Battery\
 Attention: Use ONE of the powering option mention above only. DO NOT connect two or more of the powering option which will result in SHORT CIRCUIT and RUIN the Board.
@@ -31,9 +31,19 @@ There are 2 type of Image file:
 #### Flash Image non eMMC flasher
 Follow the precedure from Flash Image eMMC flasher section
 - Connect to the BBB via browser Cloud9 IDE address : 192.168. 7.2:3000
-- Navigate to 
+- Navigate to /opt/scripts/tools/eMMC
+```
+$ cd
+$ cd opt/scripts/tools/eMMC
+```
+Execute init-eMMC-flasher-v3.sh
+```
+$ sudo ./init-eMMC-flasher-v3.sh
+```
+BBB will start to go in to flashing mode. Do not disconnect the power.\
+Wait until the LED completely shutdown then unplug the power and replug back in.
 #### Connect BBB to WIFI
-On Terminal
+On Terminal Cloud9 IDE
 ```
 $ connmanctl
 $ tether wifi off
@@ -45,3 +55,4 @@ $ connect {wifi name ex:wifi_f45eab_.................}
 $ password
 $ exit
 ```
+#### All set. Let get start to play arround with the board.
