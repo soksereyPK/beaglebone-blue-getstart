@@ -56,3 +56,8 @@ $ password
 $ exit
 ```
 #### All set. Let get start to play arround with the board.
+#### SHUTDOWN BBB
+On terminal
+```
+sudo shutdown now
+```
