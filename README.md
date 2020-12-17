@@ -59,5 +59,5 @@ $ exit
 #### SHUTDOWN BBB
 On terminal
 ```
-sudo shutdown now
+$ sudo shutdown now
 ```
