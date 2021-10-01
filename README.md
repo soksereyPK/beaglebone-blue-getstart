@@ -1,16 +1,16 @@
 # Beaglebone-Blue-GetStart
-Getting Start with Beaglebone Blue
-![](https://se.mathworks.com/hardware-support/beaglebone-blue/_jcr_content/imageParsys/image.adapt.full.high.jpg/1590140118098.jpg)
+<img src="https://se.mathworks.com/hardware-support/beaglebone-blue/_jcr_content/imageParsys/image.adapt.full.high.jpg/1590140118098.jpg" width="50%" height="50%">
+
 # Getting Started with Beaglebone Blue
 Beaglebone Blue is a linux debian base OS device that allow user player around with robotic stuff.
-# Powering Up The Board
-![](https://github.com/Phayuth/Beaglebone-Blue-GetStart/blob/master/BBBPower.png?raw=true)
+## Powering Up The Board
+<img src="https://github.com/Phayuth/Beaglebone-Blue-GetStart/blob/master/BBBPower.png?raw=true" width="50%" height="50%">
 
 There are 3 ways to powering the board
 - 12V power jack
 - Micro USB port
 - 2Cells Lipo Battery\
-Attention: Use ONE of the powering option mention above only. DO NOT connect two or more of the powering option which will result in SHORT CIRCUIT and RUIN the Board.
+You can plug all 3 power sources at the same time without any problem.
 ## Update BBB debian
 BBB can be run from 2 storage sources: SD Card and eMMC (embedded Mutli Media Card)(storage that directly solder onto board).\
 Out of the box, BBB already has a pre-installed debian OS where user can easily use it right away. In a condition where we need to update the debian, we can follow the instruction below.
