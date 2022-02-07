@@ -4,15 +4,17 @@
 Beaglebone Blue is a linux debian base OS device that allow user player around with robotic stuff. There are 3 ways to powering the board. You can plug all 3 power sources at the same time without any problem.
 
 ## Update BBB debian
-- BBB can be run from 2 storage sources: SD Card and eMMC (embedded Mutli Media Card)(storage that directly solder onto board).
+- BBB can be run from 2 storage sources
+    - SD Card
+    - eMMC (embedded Mutli Media Card)(storage that directly solder onto board).
 - Out of the box, BBB already has a pre-installed debian OS where user can easily use it right away.
 - In a condition where we need to update the debian, we can follow the instruction below.
 
 ### Images Download
 | MATLAB | Image Link : https://beagleboard.org/latest-images |
 | --- | --- |
-| [Debian 9.5 2018-10-07 4GB SD IoT](https://debian.beagleboard.org/images/bone-debian-9.5-iot-armhf-2018-10-07-4gb.img.xz)| is type of the Image that allow the BBB directly boot from the SD card |
-| Debian 9.5 2018-10-07 4GB SD IoT eMMC flasher | is type of the Image that require the BBB to flash the eMMC before use |
+| [Debian 9.5 2018-10-07 4GB SD IoT](https://debian.beagleboard.org/images/bone-debian-9.5-iot-armhf-2018-10-07-4gb.img.xz)| Allow the BBB directly boot from the SD card |
+| Debian 9.5 2018-10-07 4GB SD IoT eMMC flasher | Require the BBB to flash the eMMC before use |
 
 
 ### Flash Image eMMC flasher
